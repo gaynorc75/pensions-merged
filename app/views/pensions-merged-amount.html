@@ -1,0 +1,218 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Understand your State Pension
+{% endblock %}
+
+{% block header %}
+  <!-- Blank header with no service name for this page -->
+  {{ govukHeader() }}
+{% endblock %}
+
+{% block beforeContent %}
+  <div class="govuk-breadcrumbs">
+    <ol class="govuk-breadcrumbs__list">
+      <li class="govuk-breadcrumbs__list-item">
+        <a class="govuk-breadcrumbs__link" href="https://www.gov.uk">Home</a>
+      </li>
+      <li class="govuk-breadcrumbs__list-item">
+        <a class="govuk-breadcrumbs__link" href="https://www.gov.uk/browse/working">Working, jobs and pension</a>
+      </li>
+      <li class="govuk-breadcrumbs__list-item">
+        <a class="govuk-breadcrumbs__link" href="https://www.gov.uk/browse/working/state-pension" >State Pension</a>
+      </li>
+    </ol>
+  </div>
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <h1 class="govuk-heading-xl">
+        Understand your State Pension
+      </h1>
+
+      <aside class="app-mainstream-guide-contents-list" role="complementary">
+        <nav class="app-contents-list" aria-label="Pages in this guide" role="navigation">
+          <h2 class="app-contents-list__title">
+            Contents
+          </h2>
+          <ol class="app-contents-list__list">
+            <li aria-current="true" class="app-contents-list__list-item app-contents-list__list-item--dashed"><a href="/pensions-merged-how-much">
+              What you'll get</a>
+            </li>
+            <li aria-current="true" class="app-contents-list__list-item app-contents-list__list-item--dashed">
+                Checking your amount
+
+            </li>
+
+            <li class="app-contents-list__list-item app-contents-list__list-item--dashed">
+              <a href="/pensions-merged-eligibility">
+                Eligibility
+              </a>
+            </li>
+            <li class="app-contents-list__list-item app-contents-list__list-item--dashed">
+              <a href="/pensions-merged-claim">
+                How to claim
+              </a>
+            </li>
+
+            <li class="app-contents-list__list-item app-contents-list__list-item--dashed">
+              <a href="/pensions-merged-increase">
+                Increasing your amount
+              </a>
+            </li>
+          </ol>
+        </nav>
+      </aside>
+
+    </div>
+
+  </div>
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds app-mainstream-guide-body">
+
+      <h2 class="govuk-heading-m">
+        Checking your amount
+      </h2>
+
+      <p><a href="https://www.gov.uk/check-state-pension">Your State Pension forecast will tell you how much you can get and when</a>.</p>
+
+      <p>There are two types of state pension depending on when you were born.</p>
+
+      <p>You'll get new State pension if you're:</p>
+
+      <ul class="govuk-list govuk-list--bullet">
+        <li>a man born on or after 6 April 1951</li>
+        <li>a woman born on or after 6 April 1953</li>
+      </ul>
+
+      <p>You'll get basic State Pension if you were born before these dates.</p>
+
+    <h2 class="govuk-heading-m">How it's calculated</h2>
+
+    <p>Your final amount is based on a number of different things.</p>
+
+    <h3 class="govuk-heading-s">Your National Insurance record</h3>
+
+    <p>You’ll usually need to have 10 qualifying years on your National Insurance record to get any new State Pension. They do not have to be 10 years in a row.</p>
+
+    <p>Check your <a href="https://www.gov.uk/check-national-insurance-record">National Insurance record</a> to see how many qualifying years you have.</p>
+
+    <p>Your pension amount will increase as you add qualifying years. You will need 30-35 qualifying years to get the full amount of State Pension depending on when you reach state pension age.</p>
+
+    <p>A qualifying year applies if:</p>
+    <ul class="govuk-list govuk-list--bullet">
+      <li>you were working and paying National Insurance contributions</li>
+      <li>you were getting National Insurance credit, for example if you were unemployed, ill, or a parent or carer</li>
+      <li>you were paying voluntary National Insurance contributions</li>
+    </ul>
+
+    <h3 class="govuk-heading-s">If you were contracted out of Additional State Pension</h3>
+
+    <p>Before 2016, some people paid into an Additional State Pension. However, your employer might have chosen to pay more into your workplace pension and less into your State Pension. This means you were ‘contracted out’ of the Additional State Pension - you would have paid less National Insurance.</p>
+
+    <p>Your State Pension might be lower if you’ve ever been contracted out from the <a href="https://www.gov.uk/additional-state-pension">Additional State Pension</a>.</p>
+
+    <p>If you were contracted out of the Additional State Pension (also known as State Second Pension or ‘SERPs’) your National Insurance contributions were either:</p>
+
+      <ul class="govuk-list govuk-list--bullet">
+      <li>lower than people paying into the Additional State Pension</li>
+      <li>paid into another pension, for example a private pension</li>
+    </ul>
+
+
+    <p>Check if you’ve been <a href="/contracted-out/check-if-you-were-contracted-out">contracted out</a>.</p>
+
+
+
+
+      <nav class="app-pagination" role="navigation" aria-label="Pagination">
+        <ul class="app-pagination__list">
+          <li class="app-pagination__item app-pagination__item--previous">
+            <a href="/pensions-merged-how-much" class="govuk-link app-pagination__link" rel="prev">
+              <span class="app-pagination__link-title">
+                <svg class="app-pagination__link-icon" xmlns="http://www.w3.org/2000/svg" height="13" width="17" viewBox="0 0 17 13">
+                  <path d="m6.5938-0.0078125-6.7266 6.7266 6.7441 6.4062 1.377-1.449-4.1856-3.9768h12.896v-2h-12.984l4.2931-4.293-1.414-1.414z"></path>
+                </svg>
+                <span class="app-pagination__link-text">
+                  Previous
+                </span>
+              </span>
+              <span class="app-pagination__link-divider visually-hidden">:</span>
+              <span class="app-pagination__link-label">
+                What you'll get
+              </span>
+            </a>
+          </li>
+          <li class="app-pagination__item app-pagination__item--next">
+            <a href="/pensions-merged-eligibility" class="govuk-link app-pagination__link" rel="next">
+              <span class="app-pagination__link-title">
+                <svg class="app-pagination__link-icon" xmlns="http://www.w3.org/2000/svg" height="13" width="17" viewBox="0 0 17 13">
+                  <path d="m10.107-0.0078125-1.4136 1.414 4.2926 4.293h-12.986v2h12.896l-4.1855 3.9766 1.377 1.4492 6.7441-6.4062-6.7246-6.7266z"></path>
+                </svg>
+                <span class="app-pagination__link-text">
+                  Next
+                </span>
+              </span>
+              <span class="app-pagination__link-divider visually-hidden">:</span>
+              <span class="app-pagination__link-label">
+                Eligibility
+              </span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <p>
+        <a href="#">
+          View a printable version of the whole guide
+        </a>
+      </p>
+
+    </div>
+
+    <div class="govuk-grid-column-one-third">
+
+      <aside class="app-related-items" role="complementary">
+        <h2 class="govuk-heading-m" id="subsection-title">
+          Subsection
+        </h2>
+        <nav role="navigation" aria-labelledby="subsection-title">
+          <ul class="govuk-list govuk-!-font-size-16">
+            <li>
+              <a href="#">
+                Related link
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Related link
+              </a>
+            </li>
+            <li>
+              <a href="#" class="govuk-!-font-weight-bold">
+                More <span class="govuk-visually-hidden">in Subsection</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+
+    </div>
+
+  </main>
+</div>
+
+
+
+
+
+    </div>
+  </div>
+
+{% endblock %}
